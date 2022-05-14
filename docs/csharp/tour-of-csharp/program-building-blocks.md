@@ -233,7 +233,7 @@ The `MyList<T>` class declares two operators, `operator ==` and `operator !=`. T
 
 :::code language="csharp" source="./snippets/shared/ClassesObjects.cs" ID="ListAddition":::
 
-The first `Console.WriteLine` outputs `True` because the two lists contain the same number of objects with the same values in the same order. Had `MyList<T>` not defined `operator ==`, the first `Console.WriteLine` would have output `False` because `a` and `b` reference different `MyList<int>` instances.
+The first `Console.WriteLine` outputs `True` because the two lists contain the same number of objects with the same values in the same order. Had `MyList<T>` not defined `operator ==`, the second `Console.WriteLine` would have output `False` because `a` and `b` reference different `MyList<int>` instances.
 
 ### Finalizers
 
